@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "eda1d4ce-d639-4c31-b082-dc2b581ba2dc",
+		"name": "URL Shortening Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34362314"
+	},
+	"item": [
+		{
+			"name": "/shortService",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"longURL\": \"https://youtu.be/KRA26LhuTP4?si=nSqm7Dh66vY4I6fs\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/shortService",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shortService"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "redirect url here {****}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/JEeDjS",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"JEeDjS"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
